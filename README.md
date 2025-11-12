@@ -67,9 +67,19 @@ You can visualize this in Desmos:
 
 ---
 
-## 🖼️ Plot
-![Fitted Curve](results.png)
+## 🖼️ Results
 
+### 1. Parametric Curve Visualization  
+The generated curve showing the decaying oscillatory motion:
+
+![Curve Result](curve_result.png)
+
+---
+
+### 2. Parameter Estimation and Fitting Results  
+Computed parameter values and fitting accuracy metrics:
+
+![Results Summary](results.png)
 ---
 
 ## 🧰 Tools Used
