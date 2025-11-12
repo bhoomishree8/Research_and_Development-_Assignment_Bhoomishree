@@ -21,6 +21,17 @@ The goal is to estimate the unknown parameters **θ (theta)**, **M**, and **X** 
 
 ---
 
+### 📊 Dataset
+File: `xy_data.csv`  
+Example data:
+
+| x | y |
+|---|---|
+| 88.364 | 57.784 |
+| 74.283 | 54.407 |
+| 60.256 | 46.311 |
+
+---
 ## ⚙️ Steps Followed
 1. Loaded dataset (`xy_data.csv`) in Google Colab.
 2. Defined the model equations and residual function.
@@ -52,7 +63,7 @@ t*\cos(0.5163)- e^{-0.05*\operatorname{abs}(t)}*\sin(0.3*t)*\sin(0.5163)+ 55.013
 \]
 
 You can visualize this in Desmos:  
-🔗 [https://www.desmos.com/calculator/rfj91yrxob](https://www.desmos.com/calculator/f1nkoznp8b)
+🔗 [https://www.desmos.com/calculator/rfj91yrxob](https://www.desmos.com/calculator/g9h6dxmpge)
 
 ---
 
@@ -73,3 +84,6 @@ The model successfully fits the dataset, estimating the key parameters (θ, M, X
 The results demonstrate how nonlinear optimization techniques can recover hidden parameters from observed data.
 
 ---
+### 🧰 Requirements
+```bash
+pip install numpy pandas matplotlib scipy
